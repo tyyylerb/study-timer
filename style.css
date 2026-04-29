@@ -227,11 +227,11 @@ nav ul li a:hover {
 /* Content */
 .content {
     position: relative;
-    max-width: 250px;
+    max-width: 340px;
     margin: 100px auto 0;
-    padding: 1rem;
+    padding: 1.5rem;
     background: black;
-    border-radius: 10px;
+    border-radius: 12px;
     text-align: center;
     overflow: hidden;
     color: white;
@@ -243,6 +243,8 @@ nav ul li a:hover {
 
 .content h1 {
     margin-bottom: 1rem;
+    font-size: clamp(2.3rem, 5vw, 3.4rem);
+    line-height: 1.05;
 }
 
 .content p {
