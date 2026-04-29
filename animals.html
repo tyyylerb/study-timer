@@ -12,7 +12,7 @@
 
     <img src="media/giphy.gif" alt="woman with a cat on a balcony" id="bg-video">
 
-    <div class="nav-container">
+    <div class="container">
         <nav>
             <input type="checkbox" id="nav" class="hidden">
             <label for="nav" class="nav-btn">
@@ -31,38 +31,22 @@
     </div>
 
     <div class="content">
-        <h1>time to study!</h1>
+        <h1>take a break with these animals!</h1>
     </div>
 
-    <div class="container">
-        <div class="content">
-            <span id="message"></span>
-            <div id="time">
-                <span class="digit" id="hr">
-                    00</span>
-                <span class="txt">Hr</span>
-                <span class="digit" id="min">
-                    00</span>
-                <span class="txt">Min</span>
-                <span class="digit" id="sec">
-                    00</span>
-                <span class="txt">Sec</span>
-                <span class="digit" id="count">
-                    00</span>
-            </div>
-            <div id="buttons">
-                <button class="btn" id="start">
-                    Start</button>
-                <button class="btn" id="stop">
-                    Stop</button>
-                <button class="btn" id="reset">
-                    Reset</button>
-            </div>
+    <main>
+        <div class="content-animal">
+            <img src="media/gorilla.png" class="spinnable" id="gorilla" alt="clip art image of a gorilla" onclick="play('gorilla-audio')">
+            <audio src="media/gorilla-roar.mp3" id="gorilla-audio"></audio>
+            <h3 class="img-label">Western Lowland Gorilla</h3>
+
+            <img src="media/parrot.png" class="spinnable" id="parrot" alt="art image of a parrot" onclick="play('parrot-audio')">
+            <audio src="media/parrot.mp3" id="parrot-audio"></audio>
+            <h3 class="img-label">African Grey Parrot</h3>
         </div>
-    </div>
-    
-    <script src="scripts/time.js"></script>
-    <script src="scripts/messages.js"></script>
+    </main>
+
+    <script src="scripts/animals.js"></script>
 
     <footer>
         <p>Copyright 2026 Tyler Brown</p>

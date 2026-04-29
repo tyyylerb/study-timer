@@ -1,20 +1,12 @@
-let stopBtn = document.getElementById("stop");
 var quotes = [
-    "Great job, baby!",
+    "You got this baby!",
     "I love you so much!",
-    "You just got a lot smarter.",
-    "Wow. That was impressive.",
-    "PHEW! Break time!",
-    "New record?",
+    "You're about to get a lot smarter.",
     "You're a genius!",
-    "Women in STEM.",
-    "Okay okay, that was great.",
-    "Speechless."
+    "Women in STEM!",
+    "I'm so proud of you sweetpea!",
+    "Time to get SMART. Well, smartER. You're already smart!"
 ];
-
-stopBtn.addEventListener("click", function () {
-    
-});
 
 var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 document.getElementById("message").innerHTML = randomQuote;
