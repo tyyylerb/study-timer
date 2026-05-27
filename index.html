@@ -1,71 +1,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<!-- Happy Cat Kaoani - https://www.cursors-4u.com/cursor/happy-cat-kaoani -->
+    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/happy-cat-kaoani-189d875d-32.css">
+<!-- End www.Cursors-4U.com Code -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="https://media.tumblr.com/34d62bea2af7fe0af39aa0fadef8df28/tumblr_inline_mnfe16Ctvk1qz4rgp.gif">
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
     <title>Study Timer</title>
 </head>
 <body>
 
-    <img src="media/giphy.gif" alt="woman with a cat on a balcony" id="bg-video">
-
-    <div class="nav-container">
-        <nav>
-            <input type="checkbox" id="nav" class="hidden">
-            <label for="nav" class="nav-btn">
-                <i></i>
-                <i></i>
-                <i></i>
-            </label>
-            <div class="nav-wrapper">
-                <ul>
-                    <li><a href="index.html">Timer</a></li>
-                    <li><a href="animals.html">Animals</a></li>
-                    <li><a href="other.html">Other</a></li>
-                </ul>
-            </div>
-        </nav>
+    <div class="container-one">
+        <div id="name">
+            <div class="tumblrwob"><span class="wobble">s</span><span class="wobble">t</span><span class="wobble">u</span><span class="wobble">d</span><span class="wobble">y</span><span class="wobble"> </span><span class="wobble">t</span><span class="wobble">i</span><span class="wobble">m</span><span class="wobble">e</span><span class="wobble">!</span><span class="wobble">!</span><span class="wobble">!</span></div>
+        </div>
     </div>
-
-    <div class="content">
-        <h1>time to study!</h1>
-    </div>
-
     <div class="container">
-        <div class="content">
-            <span id="message"></span>
-            <div id="time">
-                <span class="digit" id="hr">
-                    00</span>
-                <span class="txt">Hr</span>
-                <span class="digit" id="min">
-                    00</span>
-                <span class="txt">Min</span>
-                <span class="digit" id="sec">
-                    00</span>
-                <span class="txt">Sec</span>
-                <span class="digit" id="count">
-                    00</span>
-            </div>
-            <div id="buttons">
-                <button class="btn" id="start">
-                    Start</button>
-                <button class="btn" id="stop">
-                    Stop</button>
-                <button class="btn" id="reset">
-                    Reset</button>
+        <div class="stopwatch">
+            <div id="stopwatch-display">00:00:00</div>
+            <div class="stopwatch-buttons">
+                <button id="start-btn" type="button">Start</button>
+                <button id="pause-btn" type="button">Pause</button>
+                <button id="stop-btn" type="button">Stop</button>
             </div>
         </div>
     </div>
 
-    <script src="scripts/time.js"></script>
-    <script src="scripts/messages.js"></script>
-
     <footer>
         <p>Copyright 2026 Tyler Brown</p>
     </footer>
+
+    <script src="scripts/timer.js"></script>
+    <script src="scripts/disableclick.js"></script>
 </body>
 </html>
