@@ -51,6 +51,10 @@ border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill 
     gap: 2rem;
 }
 
+.container img {
+    width: 250px;
+}
+
 .container-one {
     border-width: 1px;
     border-style: solid;
@@ -161,3 +165,4 @@ border-image: url("https://foollovers.com/mat/menu05/51a-none.gif") 9 fill round
     outline: none;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
 }
+

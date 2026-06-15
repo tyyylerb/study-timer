@@ -1,41 +1,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<!-- Happy Cat Kaoani - https://www.cursors-4u.com/cursor/happy-cat-kaoani -->
+    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/happy-cat-kaoani-189d875d-32.css">
+<!-- End www.Cursors-4U.com Code -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="https://media.tumblr.com/34d62bea2af7fe0af39aa0fadef8df28/tumblr_inline_mnfe16Ctvk1qz4rgp.gif">
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
     <title>Study Timer</title>
 </head>
 <body>
 
-    <img src="media/giphy.gif" alt="woman with a cat on a balcony" id="bg-video">
-
-    <div class="container">
-        <nav>
-            <input type="checkbox" id="nav" class="hidden">
-            <label for="nav" class="nav-btn">
-                <i></i>
-                <i></i>
-                <i></i>
-            </label>
-            <div class="nav-wrapper">
-                <ul>
-                    <li><a href="index.html">Timer</a></li>
-                    <li><a href="animals.html">Animals</a></li>
-                    <li><a href="other.html">Other</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="content">
-        <h1>take a break with these animals!</h1>
+    <div class="container-one">
+        <div id="name">
+            <div class="tumblrwob"><span class="wobble">a</span><span class="wobble">n</span><span class="wobble">i</span><span class="wobble">m</span><span class="wobble">a</span><span class="wobble">l</span><span class="wobble"> </span><span class="wobble">t</span><span class="wobble">i</span><span class="wobble">m</span><span class="wobble">e</span><span class="wobble">!</span><span class="wobble">!</span></div>
+        </div>
     </div>
 
     <main>
-        <div class="content-animal">
+        <div class="container">
             <img src="media/gorilla.png" class="spinnable" id="gorilla" alt="clip art image of a gorilla" onclick="play('gorilla-audio')">
             <audio src="media/gorilla-roar.mp3" id="gorilla-audio"></audio>
             <h3 class="img-label">Western Lowland Gorilla</h3>
@@ -46,12 +31,13 @@
         </div>
     </main>
 
-    <script src="scripts/animals.js"></script>
 
     <footer>
         <p>Copyright 2026 Tyler Brown</p>
     </footer>
 
+    <script src="scripts/animals.js"></script>
     <script src="scripts/disableclick.js"></script>
 </body>
 </html>
+
