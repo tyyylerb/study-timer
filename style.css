@@ -70,6 +70,40 @@ border-image: url("https://foollovers.com/mat/baf/heart/he32-012-c.gif") 7 fill 
     z-index: 5;
 }
 
+.site-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: min(880px, calc(100% - 2rem));
+    margin: 1rem auto 2rem;
+    padding: 0.75rem 1rem;
+}
+
+.nav-link {
+    padding: 0.6rem 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-image: url("https://foollovers.com/mat/menu05/51a-none.gif") 9 fill round;
+    background: rgba(255,255,255,0.12);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.24);
+    transform: translateY(-1px);
+}
+
+#hidden {
+    display: none;
+}
+
 #name {
     font-size: 2em;
     -webkit-text-stroke: 1px white;
